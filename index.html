@@ -17,14 +17,14 @@
             </div>
             <div>
                 <label>Interest Rate: %</label>
-                <input type="number" id="interest" min="0" max="100" value="10" step=".1" onchange="calculateLoan()"/>
+                <input type="number" id="interest-rate" min="0" max="100" value="10" step=".1" onchange="calculateLoan()"/>
             </div>
             <div>
                 <label>Months To Pay: </label>
                 <input type="number" id="months" min="1" max="300" value="1" step="1" onchange="calculateLoan()"/>
             </div>
         </form>
-        <h2 id="payment"></h2>
+        <h4 id="loanPayment"></h4>
     </div>
     <script src="loanCal.js"></script>
 </body>
