@@ -1,0 +1,31 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: grid;
+    place-items: center;
+    width: 300px;
+    margin: 10% auto;
+    background: darkgray;
+    padding: 10px 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form div {
+    width: 100%;
+    padding: 5px 0px;
+}
+
+form div input {
+    width: 100px;
+}

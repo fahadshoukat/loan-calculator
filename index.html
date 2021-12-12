@@ -11,12 +11,18 @@
     <div class="calculator">
         <h2>Loan Calculator</h2>
         <form>
-            <label>Laon Amount: $</label>
-            <input type="number" id="amount" min="1" max="5000000" onchange="calculateLoan()"/>
-            <label>Interest Rate: %</label>
-            <input type="number" id="interest" min="0" max="100" value="10" step=".1" onchange="calculateLoan()"/>
-            <label>Months To Pay: </label>
-            <input type="number" id="months" min="1" max="300" value="1" step="1" onchange="calculateLoan()"/>
+            <div>
+                <label>Laon Amount: $</label>
+                <input type="number" id="amount" min="1" max="5000000" onchange="calculateLoan()"/>
+            </div>
+            <div>
+                <label>Interest Rate: %</label>
+                <input type="number" id="interest" min="0" max="100" value="10" step=".1" onchange="calculateLoan()"/>
+            </div>
+            <div>
+                <label>Months To Pay: </label>
+                <input type="number" id="months" min="1" max="300" value="1" step="1" onchange="calculateLoan()"/>
+            </div>
         </form>
     </div>
     <script src="loanCal.js"></script>
