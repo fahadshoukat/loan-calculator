@@ -6,12 +6,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #FF6060;
+}
+
 .calculator {
     display: grid;
     place-items: center;
     width: 300px;
     margin: 10% auto;
-    background: darkgray;
+    background: whitesmoke;
     padding: 10px 5px;
 }
 
